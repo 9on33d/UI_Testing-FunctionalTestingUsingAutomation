@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Half Ebay Test Automation Suite">
+	<test name="Half Ebay Feature Test">
+		<classes>
+			<class name="Automation.Automation.ExceptionTimeOutTest"/>
+			<class name="Automation.Automation.GoogleTest"/>
+			<class name="Automation.Automation.GoogleTitleTest"/>
+		</classes>
+	</test>
+</suite>

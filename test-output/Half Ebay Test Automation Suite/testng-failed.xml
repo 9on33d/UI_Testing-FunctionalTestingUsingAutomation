@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Half Ebay Test Automation Suite]">
+  <test thread-count="5" name="Half Ebay Feature Test(failed)">
+    <classes>
+      <class name="Automation.Automation.GoogleTitleTest">
+        <methods>
+          <include name="googleLogoTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- Automation.Automation.GoogleTitleTest -->
+      <class name="Automation.Automation.GoogleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="googleLogoTest"/>
+        </methods>
+      </class> <!-- Automation.Automation.GoogleTest -->
+    </classes>
+  </test> <!-- Half Ebay Feature Test(failed) -->
+</suite> <!-- Failed suite [Half Ebay Test Automation Suite] -->
