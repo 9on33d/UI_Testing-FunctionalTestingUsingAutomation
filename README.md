@@ -1,2 +1,4 @@
 Go to SRC
-test/java
+Then test/java
+Then Automation Tester
+Functional Testing using automation
